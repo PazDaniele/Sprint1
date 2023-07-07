@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Poppins:wght@700&display=swap');
+
+/*  Mudar o corpo da página */
+
+* {
+    margin: 0;
+    /* Margem externa */
+    padding: 0;
+    /* Margem interna */
+}
+
+body {
+    background-color: #d4e9fce5;
+}
+
+.topnav {
+    /* Configurando a classe do menu */
+    background-color: #4e92f8;
+    overflow: hidden;
+}
+/* Fim da classe topnav*/
+
+.topnav a {
+    /* Abrindo a classe */
+    font-family: 'Poppins', 'sans-serif';
+    float: left; /* Texto à esquerda */
+    color: #ffff;
+    text-align: center; /* Centraliza o texto */
+    padding: 14px 16px; /* Margem interna do menu */
+    text-decoration: none; /* Retirar Sublinhado */
+    font-size: 20px; /* Tamanho da fonte */
+}
+/* Fechando a classe */
+
+.topnav a:hover{ /* Mudando a cor do menu ao passar o ponteiro */
+    background-color: #b6d3ff;
+    color: #3e78c9;
+}
+
+.topnav a.ativo{
+    background-color: #295088;
+    color: #ffffff;
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Poppins', 'sans-serif';
+    color: #295088;
+    margin: 15px;
+    padding: 23px;
+}
+
+.texto1{ /* Mudando o parágrafo */
+    font-size: 17px;
+    color: #295088;
+    font-family: 'Poppins', 'sans-serif';
+    margin: 12px;
+    padding: 11px;
+    text-align: center;
+}
+
+/* Mudando as configurações do footer */
+footer{
+    text-align: center;
+    background-color: #5c9dff73;
+    color: #ffffff;
+    font-family: 'Poppins', 'sans-serif';
+    width: 100%;
+    height: 10rem;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+}
+
+footer img{
+    width: 260px;
+    height: 110px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
