@@ -1,0 +1,35 @@
+body {
+    /* Abrindo body */
+    background-color: #ffe7b4;
+    color: #585858;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px
+}
+
+/* Fechando body */
+
+/* Criando uma classe exemplo */
+.titulo {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.p {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: beige;
+    background-color: #fdc65196;
+}
+
+.sexta{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #865c01;
+    background-color: #ffcd6079;
+}
+
+.madrugada{
+    text-align: right;
+}
